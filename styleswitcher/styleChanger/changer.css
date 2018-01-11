@@ -1,0 +1,131 @@
+/*Style Changer window css*/
+#stlChanger {
+	color:#cecece;
+	font-size:1em;
+	overflow:hidden;
+	position:fixed;
+	top:0px;
+	left:0;
+	z-index:200;
+	z-index: 1050;
+}
+#stlChanger *{
+font: 11px/1.428571429 'Lucida Sans Unicode', 'Lucida Grande', sans-serif !important;
+
+}
+#stlChanger .siteChanger, #stlChanger .bgChanger, #stlChanger .buts {
+	position:relative;
+	overflow:hidden;
+}
+
+#stlChanger .siteChanger, #stlChanger .bgChanger {
+	min-width:155px;
+	min-height:100px;
+}
+
+
+
+#stlChanger a:hover {text-decoration:none;}
+
+#stlChanger .blockChanger {
+	width:205px;
+	padding:0 136px 5px 0;
+}
+
+#stlChanger .chBody {
+	background-color:#333333;
+	width:175px;
+	padding:15px 14px 12px 10px;
+	position:relative;
+	overflow:hidden;
+	
+}
+
+#stlChanger .chBut {
+	background:#333333 url(../../img/TemplateImg/stylechangericon.png) 4px 7px no-repeat;
+	background-color:#333333;
+	width:35px;
+	height:40px;
+	position:absolute;
+	top:24px;
+	right:0;
+	z-index:10;
+}
+
+
+
+
+#stlChanger .stBlock {
+	position:relative;
+	overflow:hidden;
+	margin:5px 0;
+}
+
+#stlChanger span {
+	font-size:11px;
+	
+	padding:3px 0;
+	margin-right:5px;
+}
+
+
+#stlChanger .hdrCols,
+#stlChanger .stBgs {width:160px;}
+
+
+#stlChanger .stBgs a  {
+	
+	text-decoration:none;
+	
+	float:left;
+	padding:0;
+	margin:0 4px 4px 0;
+	cursor:pointer;
+}
+
+#stlChanger .hdrCols span  {
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 10px;
+    height: 20px;
+    margin: 0 4px 4px 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 45px;
+}
+
+#stlChanger .hdrCols span.current,
+#stlChanger .stBgs a.current {
+	border:1px solid #cecece;
+}
+
+#stlChanger .stColorParent {
+	position:relative;
+	overflow:hidden;
+	margin-bottom:8px;
+}
+
+#stlChanger a.stColor2 {
+	color:#7c7c7c;
+	display:block;
+	float:left;
+	position:relative;
+	overflow:hidden;
+}
+
+#stlChanger a.stColor2 span {
+	background:url(images/picker.png) no-repeat 0 0;
+	border:1px solid #cecece;
+	width:97px;
+	height:97px;
+	padding:0;
+	margin:0;
+}
+.styler-dropdown{ margin:0px !important; padding:0px !important; height:20px !important;
+
+font-size: 11px;
+line-height: 1.0 !important;
+}
